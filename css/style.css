@@ -1,0 +1,138 @@
+body {
+    display: flex;
+    background-color: black;
+    padding:107px 134px;
+}
+
+h1 {
+    line-height: 37px;
+    letter-spacing: -0.07em;
+    font-size: 27px;
+}
+
+p {
+    margin: 0px;
+    line-height: 27px;
+    color: #FFFFFF;
+    font-family: 'Nunito Sans';
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.discription {
+    width: 173px;
+}
+
+h2 {
+    line-height: 25px;
+    font-size: 18px;
+}
+
+.city_nav {
+    line-height: 19px;
+    color: rgba(255, 255, 255, 0.3);
+    font-size: 14px;
+}
+
+.main_discription {
+    width:  442px;
+}
+
+.apartment_info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 42px;
+    padding: 0px;
+}
+
+.menu {
+    display: flex;
+    gap: 60px;
+    justify-content: space-between;
+    padding: 0px;
+}
+
+li {
+    list-style-type: none; 
+}
+
+.line  {
+    margin-bottom: -40px;
+    margin-left: 10px;
+    background: #E3B873;
+    width: 92px;
+    height: 1px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.circle {
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.3);
+    width: 10px;
+    height: 10px;
+}
+
+.nav_container { 
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.img_block {
+    margin-left: 50px;
+}
+
+.image {
+    width: 680px;
+    height: 480px;
+}
+
+.apartment_image {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.pressed {
+    background-color: white;
+}
+
+.focus {
+    text-decoration: underline;
+    text-underline-offset: 7px;
+}
+
+.arrow, 
+.circle,
+.city_nav {
+    cursor: pointer;
+}
+
+h1, 
+h2, 
+.focus {
+    color: #E3B873;
+}
+
+h1,
+h2, 
+.city_nav {
+    text-transform: uppercase;
+    font-family: 'Yeseva One';
+    font-weight: 400;
+    font-style: normal;
+}
