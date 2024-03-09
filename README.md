@@ -1,8 +1,6 @@
 # slider
 
-1. верстка по макету 
-2. Стрелки — переключают слайды по кольцу. 
-3. Кружочки между стрелками — включают нужный слайд.
-4. Ссылки над слайдером — включают нужный слайд.
-
-
+1. Layout according to the design.
+2. Arrows - navigate slides in a circular manner.
+3. Circles between the arrows - activate the respective slide.
+4. Links above the slider - activate the relevant slide.
